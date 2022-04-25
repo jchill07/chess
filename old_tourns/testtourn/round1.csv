@@ -1,0 +1,64 @@
+#match MATCH_NUM
+#PLAYER_FIRST, PLAYER_LAST, PLAYER_INDEX, PLAYER_SCHOOL, MATCH_COLOR(black/white), WIN_LOSS(win/loss)
+TOTAL_ROUNDS 5
+
+match 1
+marvell,,28,smoky hill,white, win
+henry,dole,5,george washington,black, loss
+
+match 2
+wendy,werner,12,rock canyon,white, loss
+owen,christ,1,cherry creek,black, win
+
+match 3
+braydon,cortez,24,castle view,white, loss
+ben,isenhart,19,dakota ridge,black, win
+
+match 4
+luciano,mary,8,overland,white, win
+mohan,gopal,2,cherry creek,black, loss
+
+match 5
+ryan,zarezadeh mehrizi,6,george washington,white, win
+jack,lundgren,20,dakota ridge,black, loss
+
+match 6
+barkot,simegn,9,overland,white, win
+noah,boirne,13,rock canyon,black, loss
+
+match 7
+timothy,,29,smoky hill,white, win
+james,holub,25,castle view,black, loss
+
+match 8
+aiden,hemsley,21,dakota ridge,white, loss
+yohani,mekonan,10,overland,black, win
+
+match 9
+logan,hill,26,castle view,white, win
+jameson,daly,7,george washington,black, loss
+
+match 10
+mason,conrad,14,rock canyon,white, loss
+hans,krull,3,cherry creek,black, win
+
+match 11
+alex,hoover,16,rock canyon,white, loss
+justin,borchert,4,cherry creek,black, win
+
+match 12
+caleb,herskovitz,15,rock canyon,white, win
+william,stewart,27,castle view,black, loss
+
+match 13
+james,buck,22,dakota ridge,white, win
+anirudh,sura,17,rock canyon,black, loss
+
+match 14
+darhell,akitanibob,11,overland,white, win
+daniel,parker,23,dakota ridge,black, loss
+
+match 15
+emma,trotter,18,rock canyon,white, win
+eli,,30,smoky hill,black, loss
+

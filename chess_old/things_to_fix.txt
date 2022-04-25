@@ -1,0 +1,11 @@
+1: Byes count as wins
+2: first round just do it random
+3: make random assignment list
+4: make byes part of match assignment
+5: try 1000 times to not match school/previous match, then give up - kick it back out to do the whole list over
+6: Nobody gets multiple byes
+7: Print out results in order (rather than numerical order)
+8: Never let same people play twice
+9: okay (but not desired) if two people from the same school play, but never play the same person twice
+10: always print white on top in matches list
+11: Rankings at the end, check ties for having played eachother, then similar opponents

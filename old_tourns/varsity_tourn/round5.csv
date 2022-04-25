@@ -1,0 +1,72 @@
+#match MATCH_NUM
+#PLAYER_FIRST, PLAYER_LAST, PLAYER_INDEX, PLAYER_SCHOOL, MATCH_COLOR(black,white), WIN_LOSS(win,loss)
+TOTAL_ROUNDS 5
+
+match 1
+vedanth,s,32,cherry creek,white,draw
+luke,d,2,chatfield,black,draw
+
+match 2
+ben,i,25,dakota ridge,white,loss
+spencer,s,16,mountain vista,black,win
+
+match 3
+alex,h,8,rock canyon,white,loss
+victor,l,3,chatfield,black,win
+
+match 4
+charles,l,26,chatfield,white,loss
+hans,k,30,cherry creek,black,win
+
+match 5
+arjun,i,13,mountain vista,white,loss
+traegon,h,22,rocky mountain,black,win
+
+match 6
+raceton,h,23,rocky mountain,white,loss
+benji,s,19,cherry creek,black,win
+
+match 7
+ezra,c,33,george washington,white,win
+bryce,w,21,rocky mountain,black,loss
+
+match 8
+daniel,l,1,chatfield,white,win
+lacey,r,12,mountain vista,black,loss
+
+match 9
+will,v,27,thunder ridge,white,loss
+caleb,h,35,rock canyon,black,win
+
+match 10
+owen,c,20,cherry creek,white,win
+tyler,c,7,rock canyon,black,loss
+
+match 11
+logan,s,14,mountain vista,white,win
+camden,o,10,rock canyon,black,loss
+
+match 12
+gabe,w,28,thunder ridge,black,draw
+josiah,j,15,mountain vista,black,draw
+
+match 13
+sasank,v,9,rock canyon,white,win
+conner,h,24,rocky mountain,black,loss
+
+match 14
+cross,bm,18,smokey hill,white,loss
+barkit,s,4,overland,black,win
+
+match 15
+yohan,,5,overland,white,win
+wendy,w,36,rock canyon,black,loss
+
+match 16
+brett,v,29,thunder ridge,white,win
+ani,s,11,rock canyon,black,loss
+
+match 17
+henry,d,34,george washington,white,win
+nathan,w,17,smokey hill,black,loss
+

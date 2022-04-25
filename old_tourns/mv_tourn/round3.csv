@@ -1,0 +1,77 @@
+#match MATCH_NUM
+#PLAYER_FIRST, PLAYER_LAST, PLAYER_INDEX, PLAYER_SCHOOL, MATCH_COLOR(black,white), WIN_LOSS(win,loss)
+TOTAL_ROUNDS 5
+
+match 1
+camden,owen,12,rock canyon,white,loss
+josiah,jex,20,mountain vista,black,win
+
+match 2
+ani,sura,17,rock canyon,white,win
+lacey,rael,24,mountain vista,black,loss
+
+match 3
+gabe,wardall,9,thunder ridge,white,win
+sasank,vepa,33,rock canyon,black,loss
+
+match 4
+ethan,friend,5,stem,white,loss
+alex,hoover,15,rock canyon,black,win
+
+match 5
+arjun,iyer,18,mountain vista,white,win
+william,stewart,4,castle view,black,loss
+
+match 6
+spencer,neucks,34,stem,white,loss
+jake,fredericks,8,thunder ridge,black,win
+
+match 7
+braydon,cortez,1,castle view,white,loss
+emma,trotter,14,rock canyon,black,win
+
+match 8
+will,vernon,11,thunder ridge,white,win
+jessica,lassar,28,mountain vista,black,loss
+
+match 9
+kyle,steinsvaag,31,mountain vista,white,loss
+brett,vogler,6,thunder ridge,black,win
+
+match 10
+corbin,weaver,30,mountain vista,white,win
+jonas,nekvasit,10,thunder ridge,black,loss
+
+match 11
+logan,hill,3,castle view,white,loss
+logan,seader,27,mountain vista,black,win
+
+match 12
+owen,witfield,35,castle view,white,loss
+wendy,werner,13,rock canyon,black,win
+
+match 13
+ethan,levin,29,mountain vista,white,loss
+rohan,kotwal,16,rock canyon,black,win
+
+match 14
+spencer,starosta,19,mountain vista,white,win
+james,holub,2,castle view,black,loss
+
+match 15
+manson,chancey,23,mountain vista,white,win
+ben,eckerg,7,thunder ridge,black,loss
+
+match 16
+pennm,hoang,26,mountain vista,white,win
+kendal,rael,25,mountain vista,black,loss
+
+match 17
+adrian,s,32,mountain vista,white,loss
+hanna,kutac,21,mountain vista,black,win
+
+match 18
+chandan,marle,22,mountain vista,white,loss
+harsh,mali,36,stem,black,win
+
+

@@ -1,0 +1,52 @@
+#match MATCH_NUM
+#PLAYER_FIRST, PLAYER_LAST, PLAYER_INDEX, PLAYER_SCHOOL, MATCH_COLOR(black,white), WIN_LOSS(win,loss)
+TOTAL_ROUNDS 5
+
+match 1
+ethan,l,2,mountain vista,white,win
+adian,r,16,littleton,black,loss
+
+match 2
+hannah,k,7,mountain vista,white,loss
+logan,h,20,castle view,black,win
+
+match 3
+adian,r,1,cherry creek,white,loss
+carden,n,14,littleton,black,win
+
+match 4
+justin,b,11,cherry creek,white,win
+alessandra,v,9,thunder ridge,black,loss
+
+match 5
+corbin,w,5,mountain vista,white,draw
+william,s,18,castle view,black,draw
+
+match 6
+nick,r,12,cherry creek,white,win
+wynn,s,13,littleton,black,loss
+
+match 7
+daniel,p,10,dakota ridge,white,loss
+brayden,c,19,castle view,black,win
+
+match 8
+jordan,p,21,castle view,white,win
+sam,a,8,thunder ridge,black,loss
+
+match 9
+thippy,t,23,overland,white,loss
+brodie,l,3,mountain vista,black,win
+
+match 10
+adrian,s,4,mountain vista,white,draw
+darhell,a,24,overland,black,draw
+
+match 11
+owen,w,22,castle view,white,win
+jessica,l,6,mountain vista,black,loss
+
+match 12
+alexander,v,15,littleton,white,win
+lilyann,d,17,littleton,black,loss
+

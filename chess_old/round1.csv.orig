@@ -1,0 +1,8 @@
+#match MATCH_NUM
+#PLAYER_INDEX, PLAYER_FIRST, PLAYER_LAST, PLAYER_SCHOOL, MATCH_COLOR(black,white), WIN_LOSS(win,loss)
+TOTAL_ROUNDS 5
+
+match 1
+cv, one, 1, castle view, white, win
+cc, inz, 5, cherry creek, black, loss 
+

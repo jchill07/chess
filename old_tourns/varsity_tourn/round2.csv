@@ -1,0 +1,76 @@
+#match MATCH_NUM
+#PLAYER_FIRST, PLAYER_LAST, PLAYER_INDEX, PLAYER_SCHOOL, MATCH_COLOR(black,white), WIN_LOSS(win,loss)
+TOTAL_ROUNDS 5
+
+match 1
+benji,s,19,cherry creek,white,loss
+charles,l,26,chatfield,black,win
+
+match 2
+luke,d,2,chatfield,white,win
+brett,v,29,thunder ridge,black,loss
+
+match 3
+lacey,r,12,mountain vista,white,loss
+rohan,k,6,rock canyon,black,win
+
+match 4
+arjun,i,13,mountain vista,white,win
+bryce,w,21,rocky mountain,black,loss
+
+match 5
+owen,c,20,cherry creek,white,win
+daniel,l,1,chatfield,black,loss
+
+match 6
+victor,l,3,chatfield,white,loss
+hans,k,30,cherry creek,black,win
+
+match 7
+traegon,h,22,rocky mountain,white,win
+caleb,h,35,rock canyon,black,loss
+
+match 8
+vedanth,s,32,cherry creek,white,win
+ezra,c,33,george washington,black,loss
+
+match 9
+alex,h,8,rock canyon,white,loss
+ben,i,25,dakota ridge,black,win
+
+match 10
+yohan,,5,overland,white,loss
+spencer,s,16,mountain vista,black,win
+
+match 11
+raceton,h,23,rocky mountain,white,win
+logan,s,14,mountain vista,black,loss
+
+match 12
+camden,o,10,rock canyon,white,win
+cross,bm,18,smokey hill,black,loss
+
+match 13
+tyler,c,7,rock canyon,white,win
+nathan,w,17,smokey hill,black,loss
+
+match 14
+ani,s,11,rock canyon,white,draw
+henry,d,34,george washington,black,draw
+
+match 15
+gabe,w,28,thunder ridge,white,loss
+aditya,k,31,cherry creek,black,win
+
+match 16
+conner,h,24,rocky mountain,white,loss
+will,v,27,thunder ridge,black,win
+
+match 17
+wendy,w,36,rock canyon,white,loss
+barkit,s,4,overland,black,win
+
+match 18
+sasank,v,9,rock canyon,white,loss
+josiah,j,15,mountain vista,black,win
+

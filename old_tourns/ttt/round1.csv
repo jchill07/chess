@@ -1,0 +1,39 @@
+#match MATCH_NUM
+#PLAYER_FIRST, PLAYER_LAST, PLAYER_INDEX, PLAYER_SCHOOL, MATCH_COLOR(black,white), WIN_LOSS(win,loss)
+TOTAL_ROUNDS 5
+
+match 1
+caleb,herskovitz,8,rock canyon,white,loss
+william,stewart,15,castle view,black,win
+
+match 2
+alex,hoover,9,rock canyon,white,loss
+logan,hill,16,castle view,black,win
+
+match 3
+rohan,kotwal,10,rock canyon,white,win
+justin,borchert,2,cherry creek,black,loss
+
+match 4
+james,holub,14,castle view,white,loss
+wendy,werner,4,rock canyon,black,win
+
+match 5
+mason,conrad,6,rock canyon,white,loss
+owen,christ,1,cherry creek,black,win
+
+match 6
+noah,boirne,5,rock canyon,white,loss
+braydon,cortez,13,castle view,black,win
+
+match 7
+kevin,gray,7,rock canyon,white,win
+hans,krull,3,cherry creek,black,loss
+
+match 8
+ben,isenhart,17,dakota ridge,white,loss
+emma,trotter,12,rock canyon,black,win
+
+bye:
+camden,owen,11,rock canyon,black,
+

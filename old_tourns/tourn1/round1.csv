@@ -1,0 +1,77 @@
+#match MATCH_NUM
+#PLAYER_INDEX, PLAYER_FIRST, PLAYER_LAST, PLAYER_SCHOOL, MATCH_COLOR(black,white), WIN_LOSS(win,loss)
+TOTAL_ROUNDS 5
+
+match 1
+Wendy, Werner, 12,Rock Canyon, white, loss
+Luciano, Mary, 8, Overland, black, win
+
+match 2
+Mason, Conrad,14, Rock Canyon, white, loss
+Owen, Christ, 1, Cherry Creek, black, win
+
+match 3
+Henry, Dole,  5,  George Washington, white, win
+Ben, Isenhart,19, Dakota Ridge, black, loss
+
+match 4
+Logan, Hill,   26,  Castle View, white, loss
+Barkot, Simegn,9,  Overland, black, win
+
+match 5
+Mohan, Gopal,    2,  Cherry Creek, white, win
+William, Stewart,27, Castle View, black, loss
+
+match 6
+Noah, Boirne,  13, Rock Canyon, white, loss
+Jack, Lundgren,20, Dakota Ridge, black, win
+
+match 7
+Hans, Krull,            3, Cherry Creek, white, win
+Ryan, Zarezadeh Mehrizi,6, George Washington, black, loss
+
+match 8
+Yohani, Mekonan, 10,Overland, white, loss
+Justin, Borchert,4,  Cherry Creek, black, win
+
+match 9 
+Jameson, Daly,       7,   George Washington, white, win
+Darhell,  Akitanibob,11, Overland, black, loss
+
+match 10
+Caleb, Herskovitz,15, Rock Canyon, white, win
+James, holub,     25, Castle View, black, loss
+
+match 11
+Aiden, Hemsley, 21,Dakota Ridge, white, loss
+Braydon, Cortez,24, Castle View, black, win
+
+match 12
+Alex, Hoover,16, Rock Canyon, white, win
+James, Buck, 22, Dakota Ridge,black, loss
+
+match 13
+Eli,,          30,Smoky Hill, white, win
+Emma, Trotter, 18,Rock Canyon,black, loss
+
+match 14
+Marvell,,      28,Smoky Hill, white, loss
+Anirudh, Sura, 17,Rock Canyon, black, win
+
+match 15
+Timothy,,       29,Smoky Hill, white, win
+Daniel, Parker, 23,Dakota Ridge, black, loss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
