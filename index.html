@@ -1,28 +1,56 @@
 <!DOCTYPE html>
-   <head>
-      <title>Welcome To The Colorado State High School Chess Site</title>
-   </head>
+<html>
+    <head>
+        <script>
+            function httpGetAsync(theUrl, callback)
+            {
+                var xmlHttp = new XMLHttpRequest();
+                xmlHttp.onreadystatechange = function() { 
+                    if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+                        callback(xmlHttp.responseText);
+                    }
+                }
+                xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+                xmlHttp.send(null);
+            }
+
+            function check_match_code() {
+                var data = document.getElementById("match_code").value;
+                httpGetAsync("/open_match?match_code=" + data, match_code_callback);
+            }
+
+            function match_code_callback(res) {
+                document.getElementById("debug_div").innerHTML = res;
+            }
+        </script>
+        <title>Welcome To The Colorado State High School Chess Site</title>
+    </head>
 	
-   <body class = "submit">
-      <div id = " header">
-        <h1>Welcome To The Colorado State High School Chess Site</h1>
-        <br/>
-        <h2>Insert Your Match Code To Continue</h2>
-      </div>
+    <body>
+        <div id = "header">
+            <h1>Welcome To The Colorado State High School Chess Site 1</h1>
+            <br/>
+            <h2>Insert Your Pre-Generated Match Code To Continue</h2>
+        </div>
+        <div id="debug_div">hi</div>
 		
-      <form action = "open_match" method = "get">
-         <table summary = "">
+        <div id="body_div"> <table>
             <tr>
-               <th><label for = "match_label">Match Code:</label></th>
-               <td><input type = " text" id = "match_code" name = "match_code" /></td>
-               <br/>
-               <td><input type = "submit" value = "Submit" /></td>
+                <th><label id="match_label">Match Code:</label></th>
+                <td><input id="match_code" type="text"/></td>
+                <br/>
+                <td><button id="match_code_submit" type="button" onclick="check_match_code();">Submit</button></td>
             </tr>
-         </table>
-      </form>
-      <div id = "footer">
-      </div>
-		
-   </body>
-	
+        </div></table>
+        <div id = "footer">
+            <script>
+                var match_text_box = document.getElementById("match_code");
+                match_text_box.addEventListener("keydown", function (e) {
+                    if (e.key === "Enter") {
+                        check_match_code();
+                    }
+                });
+            </script>
+        </div>
+    </body>
 </html>

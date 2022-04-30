@@ -1,0 +1,33 @@
+Tournament Register:
+    tourn_idx {int_index}
+
+Tournament:
+    tourn_idx {tourn_idx}
+    root_match_code {string}
+    view_match_code {string}
+
+    Schools:
+        school_idx {int_index}
+        school_name {string}
+
+    Players:
+        player_idx {int_index}
+        player_name {string}
+        school_idx {school_idx}
+        tourn_wins {int}
+        tourn_draw {int}
+        tourn_loss {int}
+        tourn_points {float}
+        white_count {int}
+        black_count {int}
+
+    Matches:
+        round_idx {int_index}
+        match_idx {int}
+        white_player_idx {player_idx}
+        black_player_idx {player_idx}
+        result {'white', 'black', 'draw'} 
+
+
+
+
