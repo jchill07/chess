@@ -1,10 +1,17 @@
-
-CREATE TABLE tourn_info (
-    tourn_idx INTEGER PRIMARY KEY AUTOINCREMENT,
+CREATE TABLE tournament_register (
+    tournament_index INTEGER PRIMARY KEY AUTOINCREMENT,
+    tournament_name TINYTEXT NOT NULL,
+    tournament_path TINYTEXT NOT NULL,
+    tournament_date INTEGER NOT NULL,
     match_code_root TINYTEXT NOT NULL UNIQUE,
-    match_code_view TINYTEXT NOT NULL UNIQUE,
+    match_code_view TINYTEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE tournament_info (
+    tourn_idx INTEGER NOT NULL,
     round_count INTEGER DEFAULT 0   
 );
+
 /*
 CREATE TABLE [IF NOT EXISTS] tmp.schools (
     school_idx INTEGER PRIMARY KEY AUTOINCREMENT,

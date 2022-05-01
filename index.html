@@ -2,8 +2,8 @@
 <html>
     <head>
         <script>
-            function httpGetAsync(theUrl, callback)
-            {
+            //{{{ httpGetAsync
+            function httpGetAsync(theUrl, callback) {
                 var xmlHttp = new XMLHttpRequest();
                 xmlHttp.onreadystatechange = function() { 
                     if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
@@ -13,14 +13,28 @@
                 xmlHttp.open("GET", theUrl, true); // true for asynchronous 
                 xmlHttp.send(null);
             }
-
+            //}}}
+            //{{{ check_match_code
             function check_match_code() {
                 var data = document.getElementById("match_code").value;
                 httpGetAsync("/open_match?match_code=" + data, match_code_callback);
             }
 
             function match_code_callback(res) {
-                document.getElementById("debug_div").innerHTML = res;
+                if (res === "0") {
+                    document.getElementById("match_code").value="";
+                } else {
+                    document.getElementById("body").innerHTML = res;
+                }
+            }
+            //}}}
+            function toggle_code() {
+                var xx = document.getElementById("match_code");
+                if (xx.type === "password") {
+                    xx.type = "text";
+                } else {
+                    xx.type = "password";
+                }
             }
         </script>
         <title>Welcome To The Colorado State High School Chess Site</title>
@@ -32,14 +46,18 @@
             <br/>
             <h2>Insert Your Pre-Generated Match Code To Continue</h2>
         </div>
-        <div id="debug_div">hi</div>
+        <div id="debug_div"></div>
 		
         <div id="body_div"> <table>
             <tr>
                 <th><label id="match_label">Match Code:</label></th>
-                <td><input id="match_code" type="text"/></td>
-                <br/>
-                <td><button id="match_code_submit" type="button" onclick="check_match_code();">Submit</button></td>
+                <td><input id="match_code" type="password"/></td>
+                <td>
+                    <button id="match_code_submit" type="button" onclick="check_match_code();">Submit</button>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" onclick="toggle_code()">Show Code</td>
             </tr>
         </div></table>
         <div id = "footer">
